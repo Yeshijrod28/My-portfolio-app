@@ -1,0 +1,116 @@
+
+.hero-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:var(--bg-primary);
+  position: relative;
+}
+
+.hero-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+  animation: fadeIn 1s ease-out;
+}
+
+.hero-title {
+  font-size: 4rem;
+  font-weight: bold;
+  color: var(--text-primary)  ;
+  margin-bottom: 24px;
+  line-height: 1.1;
+}
+
+.hero-name {
+  color:var(--accent-primary) ;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  color:var(--text-secondary) ;
+  margin-bottom: 32px;
+  font-weight: 500;
+}
+
+.hero-description {
+  font-size: 1.125rem;
+  color:var(--text-muted);
+  margin-bottom: 48px;
+  line-height: 1.6;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.hero-btn {
+  padding: 16px 32px;
+  border: none;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+  min-width: 200px;
+}
+
+.hero-btn-primary {
+  background-color:var(--button-primary-bg);
+  color: var(--button-secondary-text);
+  border: 2px solid #fff;
+}
+
+.hero-btn-primary:hover {
+  background-color:var(--bg-primary);
+  transform: translateY(-2px);
+  color: var(--button-primary-bg);
+}
+
+.hero-btn-secondary {
+  background-color: transparent;
+  color:var(--button-primary-bg);
+  border: 2px solid #fff;
+}
+
+.hero-btn-secondary:hover {
+  background-color: var(--button-primary-bg);
+  color:var(--text-primary);
+  transform: translateY(-3px);
+}
+
+@media (min-width: 640px) {
+  .hero-buttons {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.25rem;
+  }
+  
+  .hero-description {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,20 @@
+:root{
+/* Background Colors */
+--bg-primary: #0c0a09; 
+--bg-secondary: #1c1917; 
+--bg-accent: #292524;
+
+/* Text Colors */
+--text-primary: #fafaf9;
+--text-secondary: #e7e5e4; 
+--text-muted: #a8a29e;
+
+/* Accent Colors */
+--accent-primary: #f59e0b;
+
+/* Button Colors */
+--button-primary-bg: #f59e0b;
+--button-primary-text: #0c0a09;
+--button-secondary-bg: #292524;
+--button-secondary-text: #fafaf9;
+}
