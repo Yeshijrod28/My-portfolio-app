@@ -5,7 +5,7 @@ import './Skills.css';
 const Skills = () => {
   const skillCategories = [
     {
-      title: 'Frontend',
+      title: 'Technical Skills',
       skills: [
         { name: 'React', level: 70 },
         { name: 'VueJS', level: 70},
