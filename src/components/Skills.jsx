@@ -5,31 +5,44 @@ import './Skills.css';
 const Skills = () => {
   const skillCategories = [
     {
+      title: 'Languages',
+      skills: [
+        { name: 'JavaScript', level: 70 },
+        { name: 'CSS', level: 80 },
+        { name: 'HTML5',level: 85 },
+        { name: 'Python', level: 68 },
+        { name: 'C/C++',level:75 },
+      ],
+    },
+    {
       title: 'Technical Skills',
       skills: [
-        { name: 'React', level: 70 },
-        { name: 'VueJS', level: 70},
-        { name: 'JavaScript', level: 70 },
-        { name: 'CSS', level: 90 },
-        { name: 'HTML5',level: 95 },
-        { name: 'Python', level: 78 },
-        { name: 'C/C++',level:85 },
-        { name: 'MySQL', level:70},
-        { name: 'ML/AI', level:60 },
+        { name: 'React', level: 60 },
+        { name: 'NodeJs', level: 50 },
+        { name: 'ExpressJs',level: 55 },
+        { name: 'AI/ML', level: 68 },
+        { name: 'Vue',level:70 },
       ],
     },
     {
       title: 'Tools',
       skills: [
-        { name: 'VsCode',level:90 },
-        { name: 'Figma',level:94 },
-        { name: 'Netlify',level:95 },
-        { name: 'Canva', level: 95 },
-        { name: 'Git & Github', level:70 },
-        { name: 'npm/pip/yarn', level:70},
-        { name: 'Photoshop',level:60 },
+        { name: 'VsCode',level:80 },
+        { name: 'Figma',level:74 },
+        { name: 'Netlify',level:85 },
+        { name: 'Canva', level: 85 },
+        { name: 'Streamlit', level: 70 },
+        { name: 'Git & Github', level:60 },
+        { name: 'Photoshop',level:65 },
         
 
+      ],
+    },
+    {
+      title: 'Databases',
+      skills: [
+        { name: 'mySQL', level:65},
+        { name: 'MongoDB',level:50 },
       ],
     },
     {
@@ -38,7 +51,7 @@ const Skills = () => {
         { name: 'Communication', level:75},
         { name: 'Team Work',level:77 },
         { name: 'Problem-solving',level:78 },
-        { name: 'Time management',level:82 },
+        { name: 'Time management',level:72 },
         { name: 'Self-Learning', level:90},
       ],
     },
