@@ -12,7 +12,7 @@ const Hero = () => {
             Kuzu, I'm <span className="hero-name">Yeshi Dorji</span>
           </h1>
           <p className="hero-subtitle">
-            Software Developer & ML Enthusiast
+            Software Engineer & ML Enthusiast
           </p>
           <p className="hero-description">
            I don't just write code — I build digital experiences that work, scale and matter.
