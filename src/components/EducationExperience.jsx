@@ -13,12 +13,12 @@ const EducationExperience = () => {
     {
       degree: 'BHSEC',      school: 'Rangjung Central School',
       year: '2019',
-      description: 'CGPA: 8.375'
+      description: '83.75%'
     },
      {
       degree: 'BCSEA',      school: 'Rangjung Central School',
       year: '2017',
-      description: 'CGPA: 8.98'
+      description: '89.8%'
     }
   ];
 
