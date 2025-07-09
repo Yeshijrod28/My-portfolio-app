@@ -27,7 +27,7 @@ const EducationExperience = () => {
       position: 'Web Developer',
       company: 'DrukSmart Pvt. Ltd.',
       year: '2024',
-      description: 'Created interactive components with Vue.js and contributed to UI/UX designs for The Pema website using Canva and Figma.'
+      description: 'Created interactive components with Vue.js and created UI/UX designs using Canva and Figma.'
     },
     {
       position: 'Tutor',
