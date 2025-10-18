@@ -1,7 +1,5 @@
-
 import React from 'react';
 import './Hero.css';
-import { href } from 'react-router-dom';
 
 const Hero = () => {
   return (
@@ -15,7 +13,7 @@ const Hero = () => {
             Software Engineer & ML Enthusiast
           </p>
           <p className="hero-description">
-           I don't just write code — I build digital experiences that work, scale and matter.
+          I don't just write code — I build digital experiences that work, scale and matter.
           </p>
           <div className="hero-buttons">
             <button

@@ -8,7 +8,7 @@ const EducationExperience = () => {
       degree: 'Bachelor of Technology in Software Engineering',
       school: 'Delhi Technological University',
       year: '2021-2025',
-      description: 'CGPA: 8.15 '
+      description: 'CGPA: 8.16 '
     },
     {
       degree: 'BHSEC',      school: 'Rangjung Central School',
@@ -24,7 +24,7 @@ const EducationExperience = () => {
 
   const experience = [
     {
-      position: 'Web Developer',
+      position: 'Intern Web Developer',
       company: 'DrukSmart Pvt. Ltd.',
       year: '2024',
       description: 'Created interactive components with Vue.js and created UI/UX designs using Canva and Figma.'

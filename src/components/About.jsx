@@ -13,7 +13,7 @@ const About = () => {
           <div className="about-grid">
             <div className="about-text">
               <p className="about-paragraph">
-                I'm a recent Software Engineering graduate with a strong passion for frontend 
+                I'm a Software Engineer with a strong passion for fullstack 
                 development and a keen interest in machine learning. I love turning ideas into 
                 interactive, user-friendly web experiences. 
               </p>
@@ -30,7 +30,7 @@ const About = () => {
               View My Work
             </button>
             <button
-                        onClick={() => {window.location.href='https://in.docworkspace.com/d/sIBr_sa6pAceA6sIG'}}
+                        onClick={() => {window.location.href='https://in.docworkspace.com/d/sIML_sa6pAdmmz8cG?sa=601.1037'}}
                         className='hero-btn hero-btn-secondary'>Download CV</button>
             </div>
 

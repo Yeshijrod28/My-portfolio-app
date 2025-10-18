@@ -4,9 +4,20 @@ import './Projects.css';
 import project1 from '../assets/project1.png'
 import project2 from '../assets/project2.png'
 import project3 from '../assets/project3.png'
+import project4 from '../assets/project4.png'
+import project5 from '../assets/project5.png'
+import project6 from '../assets/project6.png'
 
 const Projects = () => {
   const projects = [
+    {
+        title: 'Food Delivery App',
+        description: 'A full-stack food delivery app for ordering Bhutanese dishes with user login, stripe payment and an admin dashboard for menu and order management',
+        image:project4,
+        technologies: ['MongoDB', 'ExpressJS', 'React', 'NodeJS','Stripe'],
+        liveUrl: 'https://food-delivery-app-frontend-1de6.onrender.com/',
+        githubUrl: 'https://github.com/Yeshijrod28/food-delivery-app',
+    },
     {
       title: 'Hand Gesture Recognition',
       description: 'Hand gesture recognition system using computer Vision and MediaPipe',
@@ -22,6 +33,22 @@ const Projects = () => {
       technologies: ['Python', 'Pandas', 'Numpy', 'Scikit-learn','Streamlit'],
       liveUrl: 'https://laptoppricepredictor4.streamlit.app/',
       githubUrl: 'https://github.com/Yeshijrod28/laptop-price-predictor',
+    },
+    {
+      title: 'Note Taking App',
+      description: 'Full-Stack app for creating notes, editing and deleting notes',
+      image: project5,
+      technologies: ['MongoDB', 'ExpressJS', 'React', 'NodeJS','tailwind'],
+      liveUrl: 'https://note-app-frontend-0ptz.onrender.com/',
+      githubUrl: 'https://github.com/Yeshijrod28/Note-app',
+    },
+    {
+      title: 'E-commerce Microservice Architecture',
+      description: 'A scalable e-commerce system based on microservice architecture with separate services for user,cart, product and orders integrated with JWT authentication',
+      image: project6,
+      technologies: ['MongoDB', 'ExpressJS', 'Rect','NodeJS'],
+      liveUrl: 'https://ecommerce-app-xdig.onrender.com/',
+      githubUrl: 'https://github.com/Yeshijrod28/Ecommerce-Microservice-Architecture-MERN',
     },
     {
       title: 'Travel Website',
